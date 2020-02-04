@@ -19,7 +19,7 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[:fall].each do |holiday, decorations|
-    holiday << holiday_name
+    :fall << holiday_name
     decorations << supply_array
   end 
 end
